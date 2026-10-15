@@ -38,6 +38,9 @@ It covers OOP concepts, design principles, design patterns, and common design pr
 
 ## LLD Interview Problems
 
+<img src="/public/images/delivery-framework.png">
+<p align="center"><small>Object-Oriented Design Interview Delivery Framework</small></p>
+
 - Parking Lot
 - Snake and Ladder
 - Tic Tac Toe
