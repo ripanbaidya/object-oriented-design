@@ -1,25 +1,28 @@
-<h2 align="center">Object Oriented Design</h2>
+<p align="center">
+  <img src="/public/images/ood-repo-logo.png" width="350" height="200">
+</p>
 
-<p align="right">Last updated - 09.10.2026</p>
+This repository contains resources to learn and practice Object-Oriented Design (OOD), with a focus on interview preparation.
+It covers OOP concepts, design principles, design patterns, and common design problems.
 
-### Introduction
+## Introduction
 
-- Introduction to Low Level Design
+- [Introduction to Object-Oriented Design](/introduction/)
 
-### Object Oriented Programming (OOP)
+## Object Oriented Programming (OOP)
 
-- Class & Object
+- [Class & Object](/oop/class-and-object/)
 
-### Design Principles
+## Design Principles
 
-- SOLID
-- Don't Repeat Yourself (DRY)
-- Keep It Simple, Stupid (KISS)
-- You Aren't Gonna Need It (YAGNI)
-- Separation of Concerns (SOC)
-- Law of Demeter (LOD)
+- [SOLID](/principles/solid/)
+- [Don't Repeat Yourself (DRY)](/principles/dry/)
+- [Keep It Simple, Stupid (KISS)](/principles/kiss/)
+- [You Aren't Gonna Need It (YAGNI)](/principles/yagni/)
+- [Separation of Concerns (SOC)](/principles/soc/)
+- [Law of Demeter (LOD)](/principles/lod/)
 
-### Design Patterns
+## Design Patterns
 
 | Creational       | Behavioral | Structural |
 | ---------------- | ---------- | ---------- |
@@ -29,11 +32,11 @@
 | Builder          | Command    | Decorator  |
 | Prototype        | State      | Composite  |
 
-### Multithreading & Concurrency
+## Multithreading & Concurrency
 
 - update soon
 
-### LLD Interview Problems
+## LLD Interview Problems
 
 - Parking Lot
 - Snake and Ladder
@@ -53,7 +56,7 @@
 - Ride Sharing App (Uber/Ola)
 - Rate Limiter
 
-### Concurrency Interview Problems
+## Concurrency Interview Problems
 
 - Producer Consumer Problem
 - Print Zero Even Odd
