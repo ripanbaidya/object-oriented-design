@@ -1,36 +1,33 @@
-## Class and Object
+# Class and Object
 
-<p align="right">Last updated - 04.07.2026</p>
+Classes and objects form the foundational building blocks of Object-Oriented Programming (OOP). They provide the mechanism to translate real-world entities into modular, maintainable, and structured source code.
 
-### Introduction
+## Class
 
-Classes and objects form the foundational building blocks of Object-Oriented Programming (OOP). They provide the mechanism to translate real-world entities into modular, maintainable, and structured source code. For software engineers, understanding the deep relationship between class structures, object instantiation, and memory mechanics is critical for building performant applications.
+A **class** is a user-defined blueprint, template, or data type from which individual objects are created.
 
-### Class
-
-A **class** is a programmer-defined blueprint, template, or data type from which individual objects are created. It establishes a contract defining what data an object will maintain and what behaviors it can perform.
+It establishes a contract defining what data an object will maintain and what behaviors it can perform.
 
 A class defines two primary components:
 
-- **Attributes (Fields / State):** The structural variables that store the data or current state of the object.
+- **Attributes (Fields/ State):** The structural variables that store the data or current state of the object.
 - **Methods (Behaviors):** The functional blocks of code that operate on the state and define what the object can do.
 
-#### Example
+Example:
 
 ```java
-// Class definition acting as the blueprint
 class Car {
-    // Attributes (State) - Encapsulated via private access modifiers
+    // Field or Attributes
     private String name;
     private String color;
 
-    // Constructor - Initializes the object instance state in memory
+    // Constructor
     public Car(String name, String color) {
         this.name = name;
         this.color = color;
     }
 
-    // Method (Behavior) - Exposes functionality to external callers
+    // Method or Behavior
     public void start() {
         System.out.println(name + " has started.");
     }
@@ -38,31 +35,23 @@ class Car {
 
 ```
 
-### UML Representation
+UML Representation:
 
-Unified Modeling Language (UML) provides a standard notation to visualize a class structure:
-
-```
-+--------------------------+
-| Car                      |
-+--------------------------+
-| - name: String           |
-| - color: String          |
-+--------------------------+
-| + Car(name, color)       |
-| + start(): void          |
-+--------------------------+
-
+```mermaid
+classDiagram
+    class Car {
+        - String name
+        - String color
+        + Car(name, color)
+        + start() void
+    }
 ```
 
-- `-` denotes `private` access visibility.
-- `+` denotes `public` access visibility.
-
-### Object
+## Object
 
 An **object** is a self-contained, concrete instance of a class that exists at runtime. While a class is a compile-time structural blueprint that consumes no memory space, an object is the live instantiation that allocates memory and holds real values.
 
-### Instantiating Objects in Java
+**Instantiating Objects**
 
 The `new` keyword is used to bring an object to life at runtime:
 
@@ -82,7 +71,7 @@ public class Main {
 
 ```
 
-### Runtime Execution Mechanics
+**Runtime Execution Mechanics**
 
 Executing the statement `Car car1 = new Car("Toyota", "Red");` triggers a strict three-step sequence within the Java Virtual Machine (JVM):
 
